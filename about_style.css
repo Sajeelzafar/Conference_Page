@@ -212,9 +212,7 @@ body {
     padding: 10%;
 }
 
-.footericonbox {
-    border: 2px solid red;
-}
+
 
 .footertextbox {
     font-family: Lato, sans-serif;
@@ -223,4 +221,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     line-height: 15px;
+}
+
+@media only screen and (min-device-width: 768px) {
+    .mobilemenu {
+        display: none;
+    }
 }
