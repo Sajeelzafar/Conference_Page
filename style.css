@@ -17,6 +17,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.mobilemenuIcon {
+    cursor: pointer;
+}
+
 .heading {
     font-family: cocogoose, sans-serif;
     color: #ec5242;
@@ -60,11 +64,157 @@ body {
     background-image: url(./Images/black_background.jpg);
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-img {
+.mainHeading {
+    text-align: center;
+    font-family: lato, sans-serif;
+    color: white;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.horizontallinebox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.horizontalline {
+    background-color: #ec5242;
+    height: 1px;
+    width: 10%;
+}
+
+
+.mainProgram {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.mainProgramItemBox {
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+    background-color: rgba(157, 137, 137, 0.25);
+}
+
+.mainProgramItemHeading {
+    font-family: lato, sans-serif;
+    text-align: center;
+    align-self: center;
+    color: #ec5242;
+}
+
+.mainProgramItemText {
+    font-family: lato, sans-serif;
+    padding-left: 10px;
+    align-self: center;
+    color: white;
+}
+
+.mainProgramItemImage {
     width: 32px;
+    align-self: center;
+    padding-left: 25%;
     height: 32px;
 }
 
+.mainButton {
+    padding: 5%;
+    margin: 15%;
+    background-color: #ec5242;
+    color: white;
+    font-family: cocogoose, sans-serif;
+    font-weight: 500;
+    border: 2px solid #ec5242;
+    font-size: large;
+    cursor: pointer;
+}
 
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.teamHeading {
+    text-align: center;
+    font-family: lato, sans-serif;
+    color: #272a31;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.teamcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.teambox {
+    display: flex;
+    gap: 15px;
+}
+
+.teamImage {
+    width: 100%;
+}
+
+.teamName {
+    font-family: lato, sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: #272a31;
+}
+
+.teamHorizontalLine {
+    width: 10%;
+    height: 1px;
+    background-color: #d3d3d3;
+}
+
+.teamNamePosition {
+    margin-top: 5px;
+    padding: 0;
+    font-family: lato, sans-serif;
+    font-weight: 500;
+    font-size: small;
+    color: #ec5242;
+}
+
+.teamNameDescription {
+    padding: 0;
+    color: #272a31;
+    font-family: lato, sans-serif;
+    font-size: 12px;
+}
+
+.showmore {
+    margin: 10% 0 5% 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 4%;
+    font-family: lato, sans-serif;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.showmoreArrow{
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+}
