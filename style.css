@@ -255,6 +255,7 @@ body {
 
 .teamboxdesktop {
     display: none;
+    gap: 15px;
 }
 
 .showmore {
