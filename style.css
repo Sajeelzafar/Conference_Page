@@ -39,6 +39,10 @@ body {
   font-size: 36px;
 }
 
+.mobilemenucloseIcon:hover {
+    font-size: 40px;
+}
+
 .navbarlisttwomobile {
   display: flex;
   flex-direction: column;
@@ -55,6 +59,12 @@ body {
   font-weight: bold;
   color: #272a31;
   cursor: pointer;
+}
+
+.navbarlisttwoitemmobile:hover,
+.navbarlisttwoitemmobile > a:hover {
+    color: #ec5242;
+    font-size: 30px;
 }
 
 .navbarlisttwoitemmobile > a {
@@ -363,6 +373,14 @@ body {
     font-size: 14px;
     color: #272a31;
     cursor: pointer;
+    transition: color 0.1s, font-size 0.5s;
+  }
+
+  .navbarlisttwoitem:hover,
+  .navbarlistitem:hover,
+  .navbarlisttwoitem > a:hover {
+    color: #ec5242;
+    font-size: 20px;
   }
 
   .navbarlisttwoitem > a {
