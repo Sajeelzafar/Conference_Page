@@ -54,6 +54,7 @@ body {
   top: 1rem;
   right: 3rem;
   cursor: pointer;
+  font-size: 36px;
 }
 
 .navbarlisttwomobile {
@@ -348,7 +349,7 @@ body {
     height: 64px;
     align-self: center;
     padding: 5px;
-}
+  }
 
   .navbarlisttwocontainer {
     display: flex;
