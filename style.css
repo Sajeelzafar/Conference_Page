@@ -2,504 +2,526 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
 body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .desktopmenu {
-  display: none;
-}
-
-.firstpage {
-  padding: 5% 5% 0% 5%;
-  background-color: #d3d3d3;
-  background-image: url("./Images/back.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.mobilemenuIcon {
-  cursor: pointer;
-}
-
-.heading {
-  font-family: cocogoose, sans-serif;
-  color: #ec5242;
-  font-size: x-large;
-  font-weight: 500;
-  font-weight: bolder;
-  display: flex;
-  flex-direction: column;
-}
-
-.date {
-  font-family: cocogoose, sans-serif;
-  color: #272a31;
-  font-size: x-large;
-  font-weight: 500;
-}
-
-.aboveHeading {
-  padding-top: 10%;
-  font-family: lato, sans-serif;
-  color: #ec5242;
-}
-
-.belowHeading {
-  border: 2px solid white;
-  padding: 5%;
-  font-family: lato, sans-serif;
-  color: #272a31;
-  background-color: rgb(247, 247, 248);
-}
-
-.location {
-  font-family: lato, sans-serif;
-  padding-bottom: 20%;
-  font-size: medium;
-  font-weight: 500;
-  color: #272a31;
-}
-
-.whyUs {
-  background-image: url(./Images/black_background.jpg);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.mainHeading {
-  text-align: center;
-  font-family: lato, sans-serif;
-  color: white;
-  padding-bottom: 0;
-  margin-bottom: 10px;
-}
-
-.horizontallinebox {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.horizontalline {
-  background-color: #ec5242;
-  height: 1px;
-  width: 10%;
-}
-
-.mainProgram {
-  margin: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-}
-
-.mainProgramItemBox {
-  display: grid;
-  grid-template-columns: 1fr 2fr 4fr;
-  background-color: rgba(157, 137, 137, 0.25);
-}
-
-.mainProgramItemHeading {
-  font-family: lato, sans-serif;
-  text-align: center;
-  align-self: center;
-  color: #ec5242;
-}
-
-.mainProgramItemText {
-  font-family: lato, sans-serif;
-  padding-left: 10px;
-  align-self: center;
-  color: white;
-}
-
-.mainProgramItemImage {
-  width: 32px;
-  align-self: center;
-  padding-left: 25%;
-  height: 32px;
-}
-
-.mainButton {
-  padding: 5%;
-  margin: 12.5%;
-  background-color: #ec5242;
-  color: white;
-  margin-top: 5%;
-  font-family: cocogoose, sans-serif;
-  font-weight: 500;
-  border: 2px solid #ec5242;
-  font-size: large;
-  cursor: pointer;
-}
-
-.team {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 5%;
-}
-
-.teamHeading {
-  text-align: center;
-  font-family: lato, sans-serif;
-  color: #272a31;
-  padding-bottom: 0;
-  margin-bottom: 10px;
-}
-
-.teamcontainer {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.teambox {
-  display: flex;
-  gap: 15px;
-}
-
-.teamImage {
-  width: 100%;
-}
-
-.teamName {
-  font-family: lato, sans-serif;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  color: #272a31;
-}
-
-.teamHorizontalLine {
-  width: 10%;
-  height: 1px;
-  background-color: #d3d3d3;
-}
-
-.teamNamePosition {
-  margin-top: 5px;
-  padding: 0;
-  font-family: lato, sans-serif;
-  font-weight: 500;
-  font-size: small;
-  color: #ec5242;
-}
-
-.teamNameDescription {
-  padding: 0;
-  color: #272a31;
-  font-family: lato, sans-serif;
-  font-size: 12px;
-}
-
-.teamboxdesktop {
-  display: none;
-}
-
-.showmore {
-  margin: 10% 0 5% 0;
-  width: 100%;
-  background-color: white;
-  border: 1px solid darkgray;
-  border-radius: 10px;
-  cursor: pointer;
-  padding: 4%;
-  font-family: lato, sans-serif;
-  font-size: smaller;
-  display: flex;
-  justify-content: center;
-  gap: 3%;
-}
-
-.showmoreArrow {
-  width: 16px;
-  height: 16px;
-  margin: 0;
-  padding: 0;
-}
-
-.sponsordesktop {
-  display: none;
-}
-
-.footerdesktop {
-  display: none;
-}
-
-@media only screen and (min-device-width: 768px) {
-  .mobilemenu {
     display: none;
-  }
+}
 
-  .desktopmenu {
+.navbarlisttwomobile {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
-
-  .navbar1 {
-    background-color: rgb(39, 42, 49);
-    color: white;
-    width: 100%;
-    display: flex;
-  }
-
-  .navbarlistone {
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    width: 85%;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 20px;
-  }
-
-  .navbarlistimage {
-    width: 20px;
-    height: 20px;
-  }
-
-  .navbarlistitem {
-    font-family: lato, sans-serif;
-    font-size: 12px;
-    cursor: pointer;
-  }
-
-  .navbartwo {
-    display: flex;
-    justify-content: space-between;
-    width: 76%;
-    background-color: white;
-  }
-
-  .navbarlogo {
-    border: 2px solid red;
-    cursor: pointer;
-  }
-
-  .navbarlisttwocontainer {
-    display: flex;
-    gap: 100px;
-    padding: 5px;
-    align-items: center;
-  }
-
-  .navbarlisttwo {
-    display: flex;
     gap: 75px;
-  }
+}
 
-  .navbarlisttwoitem {
+.navbarlisttwoitemmobile {
     list-style-type: none;
     font-family: lato, sans-serif;
     font-size: 14px;
     color: #272a31;
     cursor: pointer;
-  }
+}
 
-  .navbarlisttwoitem > a {
+.navbarlisttwoitemmobile > a {
     text-decoration: none;
     color: #272a31;
-  }
+}
 
-  .navbarlisttwoDiscount {
-    font-family: lato, sans-serif;
-    font-size: 16px;
-    color: #ec5242;
-    border: 4px solid #ec5242;
-    padding: 7.5px;
+.firstpage {
+    padding: 5% 5% 0% 5%;
+    background-color: #d3d3d3;
+    background-image: url("./Images/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mobilemenuIcon {
     cursor: pointer;
-  }
+}
 
-  header {
-    padding: 0;
-    margin: 0;
-  }
-
-  .firstpage {
-    padding-left: 15%;
-    padding-top: 0;
-    margin-top: 0;
-  }
-
-  .aboveHeading {
-    padding-top: 6%;
-    font-size: 2rem;
-  }
-
-  .heading {
-    font-size: 3.5rem;
-    padding-top: 0;
-    margin-top: 0;
-  }
-
-  .belowHeading {
-    padding: 2%;
-    width: 50%;
-    line-height: 30px;
-  }
-
-  .date {
-    font-size: 2.5rem;
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-
-  .whyUs {
-    padding: 3%;
-  }
-
-  .mainHeading {
-    font-size: 2.5rem;
-  }
-
-  .horizontalline {
-    width: 3%;
-  }
-
-  .mainProgram {
-    margin-left: 10%;
-    margin-right: 10%;
-    display: flex;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    gap: 10px;
-    grid-auto-rows: 1fr;
-  }
-
-  .mainProgramItemBox {
+.heading {
+    font-family: cocogoose, sans-serif;
+    color: #ec5242;
+    font-size: x-large;
+    font-weight: 500;
+    font-weight: bolder;
     display: flex;
     flex-direction: column;
-    justify-items: center;
-    padding-top: 10px;
-    background-color: rgba(157, 137, 137, 0.25);
-  }
+}
 
-  .mainProgramItemHeading {
+.date {
+    font-family: cocogoose, sans-serif;
+    color: #272a31;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.aboveHeading {
+    padding-top: 10%;
+    font-family: lato, sans-serif;
+    color: #ec5242;
+}
+
+.belowHeading {
+    border: 2px solid white;
+    padding: 5%;
+    font-family: lato, sans-serif;
+    color: #272a31;
+    background-color: rgb(247, 247, 248);
+}
+
+.location {
+    font-family: lato, sans-serif;
+    padding-bottom: 20%;
+    font-size: medium;
+    font-weight: 500;
+    color: #272a31;
+}
+
+.whyUs {
+    background-image: url(./Images/black_background.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainHeading {
+    text-align: center;
+    font-family: lato, sans-serif;
+    color: white;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.horizontallinebox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.horizontalline {
+    background-color: #ec5242;
+    height: 1px;
+    width: 10%;
+}
+
+
+.mainProgram {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.mainProgramItemBox {
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+    background-color: rgba(157, 137, 137, 0.25);
+}
+
+.mainProgramItemHeading {
     font-family: lato, sans-serif;
     text-align: center;
-    color: #ec5242;
-  }
-
-  .mainProgramItemText {
-    text-align: center;
-  }
-
-  .mainProgramItemImage {
-    width: 64px;
     align-self: center;
-    padding: 0;
-    height: 64px;
-  }
+    color: #ec5242;
+}
 
-  .mainButton {
-    padding: 0;
-    background-color: transparent;
-    border: none;
-    margin: 0;
+.mainProgramItemText {
+    font-family: lato, sans-serif;
+    padding-left: 10px;
+    align-self: center;
     color: white;
+}
+
+.mainProgramItemImage {
+    width: 32px;
+    align-self: center;
+    padding-left: 25%;
+    height: 32px;
+}
+
+.mainButton {
+    padding: 5%;
+    margin: 12.5%;
+    background-color: #ec5242;
+    color: white;
+    margin-top: 5%;
     font-family: cocogoose, sans-serif;
     font-weight: 500;
-    text-decoration: underline;
+    border: 2px solid #ec5242;
     font-size: large;
-    padding-bottom: 5%;
     cursor: pointer;
-  }
+}
 
-  .teamHeading {
-    font-size: 2.5rem;
-  }
-
-  .showmore {
-    display: none;
-  }
-
-  .teamcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: auto auto auto;
-    width: 80%;
-    gap: 2rem;
-    padding-top: 3rem;
-    justify-items: center;
-  }
-
-  .teambox,
-  .teamboxdesktop {
-    display: flex;
-    gap: 15px;
-  }
-
-  .teamName {
-    padding-top: 0.25rem;
-  }
-
-  .sponsordesktop {
-    margin-top: 50px;
-    width: 100%;
-    background-color: #272a31;
+.team {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-  }
+    margin: 5%;
+}
 
-  .sponsorHeading {
-    color: white;
-    font-family: Lato, sans-serif;
-    font-size: 18px;
-    padding-top: 10px;
+.teamHeading {
     text-align: center;
-  }
-
-  .sponsorbox {
-    width: 60%;
-    font-family: Lato, sans-serif;
-    font-size: 36px;
-    color: #d3d3d3;
-    display: flex;
-    flex-wrap: wrap;
-    line-height: 40px;
-    gap: 8%;
-    padding-top: 15px;
-    padding-bottom: 40px;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .footerdesktop {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    width: 100%;
-    gap: 5%;
-    padding: 2%;
-  }
-
-  .footericonbox {
-    border: 2px solid red;
-  }
-
-  .footertextbox {
-    font-family: Lato, sans-serif;
-    font-size: 12px;
+    font-family: lato, sans-serif;
     color: #272a31;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.teamcontainer {
     display: flex;
-    flex-wrap: wrap;
-    line-height: 15px;
-  }
+    flex-direction: column;
+    gap: 10px;
+}
+
+.teambox {
+    display: flex;
+    gap: 15px;
+}
+
+.teamImage {
+    width: 100%;
+}
+
+.teamName {
+    font-family: lato, sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: #272a31;
+}
+
+.teamHorizontalLine {
+    width: 10%;
+    height: 1px;
+    background-color: #d3d3d3;
+}
+
+.teamNamePosition {
+    margin-top: 5px;
+    padding: 0;
+    font-family: lato, sans-serif;
+    font-weight: 500;
+    font-size: small;
+    color: #ec5242;
+}
+
+.teamNameDescription {
+    padding: 0;
+    color: #272a31;
+    font-family: lato, sans-serif;
+    font-size: 12px;
+}
+
+.teamboxdesktop {
+    display: none;
+}
+
+.showmore {
+    margin: 10% 0 5% 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 4%;
+    font-family: lato, sans-serif;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.showmoreArrow{
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.sponsordesktop {
+    display: none;
+}
+
+.footerdesktop {
+    display: none;
+}
+
+@media only screen and (min-device-width: 768px) {
+    .mobilemenu {
+        display: none;
+    }
+
+    .desktopmenu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar1 {
+        background-color: rgb(39, 42, 49);
+        color: white;
+        width: 100%;
+        display: flex;
+    }
+
+    .navbarlistone {
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        width: 85%;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .navbarlistimage {
+        width: 20px;
+        height: 20px;
+    }
+
+    .navbarlistitem {
+        font-family: lato, sans-serif;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .navbartwo {
+        display: flex;
+        justify-content: space-between;
+        width: 76%;
+        background-color: white;
+    }
+
+    .navbarlogo {
+        border: 2px solid red;
+        cursor: pointer;
+    }
+
+    .navbarlisttwocontainer{
+        display: flex;
+        gap: 100px;
+        padding: 5px;
+        align-items: center;
+    }
+
+    .navbarlisttwo {
+        display: flex;
+        gap: 75px;
+    }
+
+    .navbarlisttwoitem {
+        list-style-type: none;
+        font-family: lato, sans-serif;
+        font-size: 14px;
+        color: #272a31;
+        cursor: pointer;
+    }
+
+    .navbarlisttwoitem > a {
+        text-decoration: none;
+        color: #272a31;
+    }
+
+    .navbarlisttwoDiscount {
+        font-family: lato, sans-serif;
+        font-size: 16px;
+        color: #ec5242;
+        border: 4px solid #ec5242;
+        padding: 7.5px;
+        cursor: pointer;
+    }
+
+    header {
+        padding: 0;
+        margin: 0;
+    }
+
+    .firstpage{
+        padding-left: 15%;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .aboveHeading {
+        padding-top: 6%;
+        font-size: 2rem;
+    }
+
+    .heading {
+        font-size: 3.5rem;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .belowHeading {
+        padding: 2%;
+        width: 50%;
+        line-height: 30px;
+    }
+
+    .date {
+        font-size: 2.5rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .whyUs {
+        padding: 3%;
+    }
+
+    .mainHeading {
+        font-size: 2.5rem;
+    }
+
+    .horizontalline {
+        width: 3%;
+    }
+
+    .mainProgram {
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        gap: 10px;
+        grid-auto-rows: 1fr;
+    }
+    
+    .mainProgramItemBox {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        padding-top: 10px;
+        background-color: rgba(157, 137, 137, 0.25);
+    }
+    
+    .mainProgramItemHeading {
+        font-family: lato, sans-serif;
+        text-align: center;
+        color: #ec5242;
+    }
+    
+    .mainProgramItemText {
+        text-align: center;
+    }
+    
+    .mainProgramItemImage {
+        width: 64px;
+        align-self: center;
+        padding: 0;
+        height: 64px;
+    }
+    
+    .mainButton {
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        margin: 0;
+        color: white;
+        font-family: cocogoose, sans-serif;
+        font-weight: 500;
+        text-decoration: underline;
+        font-size: large;
+        padding-bottom: 5%;
+        cursor: pointer;
+    }
+
+    .teamHeading {
+        font-size: 2.5rem;
+    }
+
+    .showmore {
+        display: none;
+    }
+
+    .teamcontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: auto auto auto;
+        width: 80%;
+        gap: 2rem;
+        padding-top: 3rem;
+        justify-items: center;
+    }
+
+    .teambox,
+    .teamboxdesktop {
+        display: flex;
+        gap: 15px;
+    }
+
+    .teamName {
+        padding-top: 0.25rem;
+    }
+
+    .sponsordesktop {
+        margin-top: 50px;
+        width: 100%;
+        background-color: #272a31;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .sponsorHeading {
+        color: white;
+        font-family: Lato, sans-serif;
+        font-size: 18px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+    .sponsorbox {
+        width: 60%;
+        font-family: Lato, sans-serif;
+        font-size: 36px;
+        color: #d3d3d3;
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 40px;
+        gap: 8%;
+        padding-top: 15px;
+        padding-bottom: 40px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .footerdesktop {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        gap: 5%;
+        padding: 2%;
+    }
+    
+    .footericonbox{
+        border: 2px solid red;
+    }
+    
+    .footertextbox {
+        font-family: Lato, sans-serif;
+        font-size: 12px;
+        color: #272a31;
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 15px;
+    }
+
 }
