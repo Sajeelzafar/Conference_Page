@@ -338,9 +338,12 @@ body {
         background-color: white;
     }
 
-    .navbarlogo {
-        border: 2px solid red;
+    .navbarlogo > a > img {
         cursor: pointer;
+        width: 64px;
+        height: 64px;
+        align-self: center;
+        padding: 5px;
     }
 
     .navbarlisttwocontainer{
