@@ -13,16 +13,45 @@ body {
     display: none;
 }
 
+.mobilemenu {
+    padding: 5% 5% 0% 5%;
+}
+
+.mobilemenudropdown {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    z-index: 1;
+}
+
+.mobilemenucloseIcon {
+    position: relative;
+    float: right;
+    top: 1rem;
+    right: 3rem;
+    cursor: pointer;
+}
+
 .navbarlisttwomobile {
     display: flex;
     flex-direction: column;
     gap: 75px;
+    padding-top: 5rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbarlisttwoitemmobile {
     list-style-type: none;
     font-family: lato, sans-serif;
-    font-size: 14px;
+    font-size: 24px;
+    font-weight: bold;
     color: #272a31;
     cursor: pointer;
 }
@@ -33,11 +62,14 @@ body {
 }
 
 .firstpage {
-    padding: 5% 5% 0% 5%;
     background-color: #d3d3d3;
     background-image: url("./Images/back.png");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.firstpageitems {
+    padding: 5% 5% 0% 5%;
 }
 
 .mobilemenuIcon {
