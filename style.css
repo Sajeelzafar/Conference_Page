@@ -40,7 +40,7 @@ body {
 }
 
 .mobilemenucloseIcon:hover {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .navbarlisttwomobile {
@@ -61,15 +61,15 @@ body {
   cursor: pointer;
 }
 
-.navbarlisttwoitemmobile:hover,
-.navbarlisttwoitemmobile > a:hover {
-    color: #ec5242;
-    font-size: 30px;
-}
-
 .navbarlisttwoitemmobile > a {
   text-decoration: none;
   color: #272a31;
+}
+
+.navbarlisttwoitemmobile:hover,
+.navbarlisttwoitemmobile > a:hover {
+  color: #ec5242;
+  font-size: 30px;
 }
 
 .firstpage {
@@ -376,16 +376,16 @@ body {
     transition: color 0.1s, font-size 0.5s;
   }
 
+  .navbarlisttwoitem > a {
+    text-decoration: none;
+    color: #272a31;
+  }
+
   .navbarlisttwoitem:hover,
   .navbarlistitem:hover,
   .navbarlisttwoitem > a:hover {
     color: #ec5242;
     font-size: 20px;
-  }
-
-  .navbarlisttwoitem > a {
-    text-decoration: none;
-    color: #272a31;
   }
 
   .navbarlisttwoDiscount {
@@ -572,7 +572,7 @@ body {
   .footericonlogo {
     width: 100%;
   }
-  
+
   .footertextbox {
     font-family: Lato, sans-serif;
     font-size: 12px;
@@ -582,5 +582,4 @@ body {
     flex-wrap: wrap;
     line-height: 15px;
   }
-  
 }
