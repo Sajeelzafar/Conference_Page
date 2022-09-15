@@ -61,6 +61,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
+- Cindy Shinon Behance for her UI design template
 
 ## 📝 License
 
