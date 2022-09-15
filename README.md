@@ -15,6 +15,8 @@ The project represents the demo travels and tours page. The home and about page 
 
 [Live Demo Link](https://sajeelzafar.github.io/Conference_Page/)
 
+[Live Video Link](https://www.loom.com/share/3526b2bef73142499b5481c059ab18e4)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -57,8 +59,9 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+- [Cindy Shinon Behance](https://www.behance.net/adagio07) for her [UI design template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+- Hat tip to anyone whose code was used.
 
-- Hat tip to anyone whose code was used
 
 ## 📝 License
 
