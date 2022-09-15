@@ -40,7 +40,7 @@ body {
 }
 
 .mobilemenucloseIcon:hover {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .navbarlisttwomobile {
@@ -61,15 +61,15 @@ body {
   cursor: pointer;
 }
 
-.navbarlisttwoitemmobile:hover,
-.navbarlisttwoitemmobile > a:hover {
-    color: #ec5242;
-    font-size: 30px;
-}
-
 .navbarlisttwoitemmobile > a {
   text-decoration: none;
   color: #272a31;
+}
+
+.navbarlisttwoitemmobile:hover,
+.navbarlisttwoitemmobile > a:hover {
+  color: #ec5242;
+  font-size: 30px;
 }
 
 .firstpage {
@@ -168,6 +168,10 @@ body {
   background-color: rgba(157, 137, 137, 0.25);
 }
 
+.mainProgramItemBox:hover {
+  border: 1px solid #ec5242;
+}
+
 .mainProgramItemHeading {
   font-family: lato, sans-serif;
   text-align: center;
@@ -200,6 +204,11 @@ body {
   border: 2px solid #ec5242;
   font-size: large;
   cursor: pointer;
+}
+
+.mainButton:hover {
+  margin-top: 0;
+  box-shadow: 0 0 4px 1px  #d3d3d3;
 }
 
 .team {
@@ -376,16 +385,16 @@ body {
     transition: color 0.1s, font-size 0.5s;
   }
 
+  .navbarlisttwoitem > a {
+    text-decoration: none;
+    color: #272a31;
+  }
+
   .navbarlisttwoitem:hover,
   .navbarlistitem:hover,
   .navbarlisttwoitem > a:hover {
     color: #ec5242;
     font-size: 20px;
-  }
-
-  .navbarlisttwoitem > a {
-    text-decoration: none;
-    color: #272a31;
   }
 
   .navbarlisttwoDiscount {
@@ -492,6 +501,11 @@ body {
     cursor: pointer;
   }
 
+  .mainButton:hover {
+    color: #ec5242;
+    box-shadow: none;
+  }
+
   .teamHeading {
     font-size: 2.5rem;
   }
@@ -572,7 +586,7 @@ body {
   .footericonlogo {
     width: 100%;
   }
-  
+
   .footertextbox {
     font-family: Lato, sans-serif;
     font-size: 12px;
@@ -582,5 +596,4 @@ body {
     flex-wrap: wrap;
     line-height: 15px;
   }
-  
 }

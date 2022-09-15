@@ -79,15 +79,15 @@ body {
   cursor: pointer;
 }
 
-.navbarlisttwoitemmobile:hover,
-.navbarlisttwoitemmobile > a:hover {
-    color: #ec5242;
-    font-size: 30px;
-}
-
 .navbarlisttwoitemmobile > a {
   text-decoration: none;
   color: #272a31;
+}
+
+.navbarlisttwoitemmobile:hover,
+.navbarlisttwoitemmobile > a:hover {
+  color: #ec5242;
+  font-size: 30px;
 }
 
 .firstpageitems {
@@ -197,11 +197,19 @@ body {
   display: none;
 }
 
-.logobox {
-  border: 1px solid lightgray;
-  padding: 10px;
-  margin: 10px;
-  width: 40%;
+.logobox1 {
+  display: flex;
+  justify-content: center;
+}
+
+.logoboximage1 {
+  width: 80%;
+  cursor: pointer;
+}
+
+.logoboximage1:hover {
+  transform: scale(1.1);
+  border: 2px solid #ec5242;
 }
 
 .logoboximage,
@@ -242,6 +250,20 @@ body {
   text-align: center;
   font-size: small;
   margin-bottom: 0;
+}
+
+.logoboxcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  gap: 25px;
+}
+
+.logobox {
+  width: 25%;
+  padding-top: 25px;
 }
 
 .sponsor {
@@ -386,16 +408,16 @@ body {
     transition: color 0.1s, font-size 0.5s;
   }
 
+  .navbarlisttwoitem > a {
+    text-decoration: none;
+    color: #272a31;
+  }
+
   .navbarlisttwoitem:hover,
   .navbarlistitem:hover,
   .navbarlisttwoitem > a:hover {
     color: #ec5242;
     font-size: 20px;
-  }
-
-  .navbarlisttwoitem > a {
-    text-decoration: none;
-    color: #272a31;
   }
 
   .navbarlisttwoDiscount {
@@ -413,7 +435,6 @@ body {
   }
 
   .firstpage {
-    padding-left: 15%;
     padding-top: 0;
     margin-top: 0;
   }
