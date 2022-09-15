@@ -59,8 +59,8 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- Cindy Shinon Behance for her UI design template
-- Hat tip to anyone whose code was used
+- [Cindy Shinon Behance](https://www.behance.net/adagio07) for her [UI design template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+- Hat tip to anyone whose code was used.
 
 
 ## 📝 License
