@@ -169,7 +169,7 @@ body {
 }
 
 .mainProgramItemBox:hover {
-    border: 1px solid #ec5242;
+  border: 1px solid #ec5242;
 }
 
 .mainProgramItemHeading {
@@ -207,8 +207,8 @@ body {
 }
 
 .mainButton:hover {
-    margin-top: 0;
-    box-shadow: 0px 0px 4px 1px  #d3d3d3;
+  margin-top: 0;
+  box-shadow: 0 0 4px 1px  #d3d3d3;
 }
 
 .team {
