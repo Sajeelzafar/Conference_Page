@@ -168,6 +168,10 @@ body {
   background-color: rgba(157, 137, 137, 0.25);
 }
 
+.mainProgramItemBox:hover {
+    border: 1px solid #ec5242;
+}
+
 .mainProgramItemHeading {
   font-family: lato, sans-serif;
   text-align: center;
@@ -200,6 +204,11 @@ body {
   border: 2px solid #ec5242;
   font-size: large;
   cursor: pointer;
+}
+
+.mainButton:hover {
+    margin-top: 0;
+    box-shadow: 0px 0px 4px 1px  #d3d3d3;
 }
 
 .team {
@@ -490,6 +499,11 @@ body {
     font-size: large;
     padding-bottom: 5%;
     cursor: pointer;
+  }
+
+  .mainButton:hover {
+    color: #ec5242;
+    box-shadow: none;
   }
 
   .teamHeading {
